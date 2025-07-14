@@ -93,3 +93,5 @@ TEMPERATURE=0.7 # LLM temperature
 streamlit run frontend/main.py
 ```
 - This will open the Streamlit application in your default web browser, typically at http://localhost:8501.
+
+
