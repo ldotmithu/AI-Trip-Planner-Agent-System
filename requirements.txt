@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+Flask
+requests
+python-dotenv
+langchain
+langchain-groq
+langgraph
+pydantic
+google-search-results
+markdown
+langchain_google_community
