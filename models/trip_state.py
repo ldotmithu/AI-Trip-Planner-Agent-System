@@ -1,4 +1,5 @@
 from typing_extensions import TypedDict,Optional,Any,Dict,List
+from pydantic import BaseModel
 
 class TripState(TypedDict):
     user_input: str
@@ -21,4 +22,8 @@ class TripState(TypedDict):
     budget_usd: Optional[float]
     local_currency_budget: Optional[float]
     status: str
+    final_plan: str
     messages: List[Dict[str, Any]]  # final summary
+
+class TripRequest(BaseModel):
+    user_query: str    

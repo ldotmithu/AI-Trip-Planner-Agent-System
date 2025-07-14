@@ -14,3 +14,5 @@ EXCHANGE_RATE_BASE_URL = "https://v6.exchangerate-api.com/v6"
 
 LLM_MODEL_NAME = "gemma2-9b-it" 
 TEMPERATURE = 0.5
+
+BACKEND_URL = "http://localhost:8000"
